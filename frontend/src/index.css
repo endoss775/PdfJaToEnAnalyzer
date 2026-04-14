@@ -1,0 +1,71 @@
+/* ===== リセット＆基本設定 ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== ルート設定 ===== */
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+
+  /* ベースカラー */
+  --bg: #f3f4f6;
+  --text: #111827;
+}
+
+/* ===== 全体レイアウト ===== */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Reactのルート */
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+/* ===== 見出し ===== */
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+/* ===== 入力系 ===== */
+input,
+button {
+  font-family: inherit;
+}
+
+/* ===== スクロールバー少し見やすく（任意） ===== */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
