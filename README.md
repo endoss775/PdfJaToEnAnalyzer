@@ -7,13 +7,13 @@
 クローン後、以下を実行する。
 
 フロントエンド
-cd frontend
-npm install
-npm run dev
+1. cd frontend
+2. npm install
+3. npm run dev
 バックエンド
-cd backend
-npm install
-npx ts-node src/server.ts
+1. cd backend
+2. npm install
+3. npx ts-node src/server.ts
 
 ## 1. システム概要
 
