@@ -1,6 +1,20 @@
 # HowToPdfTransrator
 ![イラスト](./mdPicture/英日PDF翻訳システム構成図.png)
 
+##使い方
+起動方法
+
+クローン後、以下を実行する。
+
+フロントエンド
+cd frontend
+npm install
+npm run dev
+バックエンド
+cd backend
+npm install
+npx ts-node src/server.ts
+
 ## 1. システム概要
 
 本システムは、PDF内の英単語をクリックすると日本語訳をポップアップ表示するWebアプリケーションである。
